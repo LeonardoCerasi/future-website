@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    color: #000;
+    background: #000;
+}
+
+div.header {
+    width: 100%;
+    padding: 1.1% 0;
+    background: rgb(225, 194, 66);
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+div.icon {
+    width: 20%;
+    text-align: center;
+    border-style: solid;
+}
+
+div.title {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+h1.main-title {
+    font-family: 'Times New Roman';
+    font-size: 3em;
+    color: #000;
+    font-style: bold;
+    text-align: center;
+    border-style: solid;
+}
+
+div.menu {
+    width: 80%;
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(180, 68, 190);
+    border-style: solid;
+}
+
+nav.links {
+    padding: 1.1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-style: solid;
+}
+
+a.link {
+    padding: 1.1%;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    border-style: solid;
+}
+
+div.text {
+    width: 60%;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(55, 193, 147);
+    border-style: solid;
+}
+
+p.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #000;
+    font-style: bold;
+    text-align: center;
+    border-style: solid;
+}
+
+p.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #000;
+    font-style: bold;
+    text-align: center;
+    border-style: solid;
+}
+
+p.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #000;
+    font-style: bold;
+    text-align: center;
+    border-style: solid;
+}
+
+div.slideshow {
+    width: 60%;
+    margin: 1%;
+    padding: 1.1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(99, 211, 59);
+    text-align: center;
+    border-style: solid;
+}
+
+div.footer {
+    width: 100%;
+}
